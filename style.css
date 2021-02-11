@@ -1,0 +1,75 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+ background: linear-gradient(to right, #1b91e0 0%, #2c8bc7 50%, #52e3d5 100%); 
+ 
+}
+p, h2 {
+    padding: 4px;
+}
+.logo-wrapper {
+  width: 160px;
+  margin: 0px;
+  padding: 0px;
+}
+nav ul li {
+  padding: 12px 0px;
+  margin: 5px;
+  list-style-type: none;
+  display: flex;
+  font-weight: 600px;
+  cursor: pointer;
+  /*border: 2px solid black;
+    border-radius: 12px;    
+    font-weight: 500px; */
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+  background-image: url("ethy.gif");
+  background-repeat: none;
+  background-color: #252525;
+    color:white;
+  /* background: linear-gradient(to right, #52e3d5 0%, #2c8bc7 50%, #1b91e0 100%);  */
+  box-shadow: -1px 17px 14px -4px rgba(0, 0, 0, 0.81);
+}
+@media all and (max-width: 800px) {
+  header {
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 600px) {
+  header nav ul {
+    flex-direction: column;
+  }
+}
+
+.pics-and-text1 {
+  display: flex;
+  justify-content: space-between;
+}
+.pics-and-text2 {
+  display: flex;
+  justify-content: space-between;
+}
+.pics-and-text3 {
+  display: flex;
+  justify-content: space-between;
+}
+@media all and (max-width: 800px) {
+  .pics-and-text1,
+  .pics-and-text2,
+  .pics-and-text3 {
+    flex-direction: column;
+    text-align: center;
+  }
+}
