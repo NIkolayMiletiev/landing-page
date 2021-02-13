@@ -73,3 +73,27 @@ header {
     text-align: center;
   }
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+  background-image: url("ethy.gif");
+  background-repeat: none;
+  background-color: #252525;
+    color:white;
+  /* background: linear-gradient(to right, #52e3d5 0%, #2c8bc7 50%, #1b91e0 100%);  */
+  box-shadow: -1px 17px 14px -4px rgba(0, 0, 0, 0.81);
+
+}
+footer ul li  {
+  list-style-type: none;
+  padding: 4px 0px;
+}
+@media all and (max-width: 800px) {
+  footer {
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+
+}
